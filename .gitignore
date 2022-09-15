@@ -1,2 +1,6 @@
 import numpy as np
-
+import pandas as pd
+np.array([9,10,11,12,13,14]);
+a=np.array([9,10,11,12,13,14]).reshape(3,2);
+pd.DataFrame(a);
+pd.DataFrame(a,index=['A','B','C'],columns=['X','Y']);
